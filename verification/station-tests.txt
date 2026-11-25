@@ -1,0 +1,14 @@
+********* Start testing of StationTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 15.1.0), windows 11
+PASS   : StationTests::initTestCase()
+PASS   : StationTests::parser()
+PASS   : StationTests::udpAndQuality()
+PASS   : StationTests::commands()
+QWARN  : StationTests::windowScenario() This plugin does not support propagateSizeHints()
+QWARN  : StationTests::windowScenario() This plugin does not support propagateSizeHints()
+QWARN  : StationTests::windowScenario() This plugin does not support propagateSizeHints()
+QWARN  : StationTests::windowScenario() This plugin does not support propagateSizeHints()
+PASS   : StationTests::windowScenario()
+PASS   : StationTests::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted, 13201ms
+********* Finished testing of StationTests *********
