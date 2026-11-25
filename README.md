@@ -4,7 +4,11 @@
 
 ## Сборка
 
-Нужны C++17, CMake 3.21+, Qt 6.5+ с Widgets, Network, Charts и Test. Откройте CMakeLists.txt в Qt Creator, выберите комплект Qt 6 с Charts и соберите проект. Две цели запуска — **GroundStation** и **UavSimulator**. Для командной строки с настроенным комплектом Qt:
+Нужны C++17 и Qt 6.5+ с Widgets, Network, Charts и Test.
+
+**Qt Creator и qmake.** Откройте `Practical_04_MavlinkGroundStation.pro`, выберите комплект Qt 6 с Charts и соберите проект. Переключайте конфигурацию запуска между **GroundStation** и **UavSimulator**. Чтобы открыть приложения в двух отдельных окнах Qt Creator, используйте `GroundStation.pro` и `UavSimulator.pro`. Тесты можно открыть через `StationTests.pro`.
+
+**CMake 3.21+.** Откройте `CMakeLists.txt` в Qt Creator или выполните в командной строке с настроенным комплектом Qt:
 
 ```sh
 cmake -S . -B build -DCMAKE_PREFIX_PATH="/path/to/Qt/kit"
