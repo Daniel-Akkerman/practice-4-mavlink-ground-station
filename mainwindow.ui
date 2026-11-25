@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StationWindow</class>
+ <widget class="QMainWindow" name="StationWindow">
+  <property name="windowTitle"><string>Практика №4 · Наземная станция MAVLink</string></property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="stationLayout"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
